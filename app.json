@@ -2,6 +2,7 @@
   "expo": {
     "name": "todo_frontend",
     "slug": "todo_frontend",
+    "privacy": "public",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +26,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "760af514-2f81-4385-b4a6-0ad85bc83a74"
+      }
     }
   }
 }
